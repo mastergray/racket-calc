@@ -14,12 +14,12 @@ It was my first attempt doing a lot of things I wanted to try - experiment with 
 ## How To Run This Thing
 To run **racket-calc** on Linux, find wherever you extracted the .tgz to and the binary should be **/bin**. Once there you would type`./calc`. Because the .tgz version of **racket-calc** was compiled for distibution on a Linux machine, it's binary is said to [only run on other Linux machines](https://docs.racket-lang.org/raco/exe.html). Though the binary itself has only been tested on Ubuntu (specifically _Ubuntu 12.04.5 LTS_ running from crouton on a Chromebook - because I'm clearly insane). 
 
-Just for "fun" - I decided to see if I could compile **racket-calc** on a mac, and was successful in doing so (at least for macOS Sierra 10.12.16). The .dmg is now available under [dist]() (Rejoice).  
+Just for "fun" - I decided to see if I could compile **racket-calc** on a mac, and was successful in doing so (at least for macOS Sierra 10.12.16). The .dmg is now available under [dist](https://github.com/mastergray/racket-calc/raw/master/dist/calc.dmg) Rejoice.  
 
-##Compiling This Yourself## 
+## Compiling This Yourself 
 If, for some reason you wanted to compile the source yourself on some other platform, make sure you have the [brag package](https://github.com/mbutterick/brag) installed. If not, you can install it by running 
 
-'raco pkg install brag' 
+`raco pkg install brag` 
 
 (or _.raco pkg install brag_ as I had to do for compiling to mac). Then, it _should_ be as easy as loading **calc.rtk** into **DrRacket** and clicking **Racket** > **Create  Exectuable** with **Distribution** selected - as long as all source files are still in the same directory.
 
